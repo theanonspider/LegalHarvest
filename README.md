@@ -16,6 +16,8 @@
 
 L'outil ne communique **jamais** avec Internet. Toutes les données sont stockées **localement** et doivent être récupérées manuellement par l'opérateur.
 
+**Nouveau :** Interface graphique **Anonymous Edition** 🐺 avec logs en direct et sélection des modules.
+
 ---
 
 ## 🔐 Sécurité intégrée
@@ -98,6 +100,19 @@ Sans ce fichier, le programme refuse de s'exécuter.
 
 ---
 
+## 🎨 Interface graphique (Anonymous Edition)
+
+L'outil dispose d'une interface graphique **style hacker violet** 🟣 :
+
+- 🐺 Thème violet sur fond noir
+- ✅ Cases à cocher pour sélectionner les modules
+- 🚀 Bouton **⚡ EXECUTE** pour lancer la collecte
+- 📊 Logs en direct avec couleurs (vert = succès, rouge = erreur)
+- 📂 Bouton **OPEN LOOT** pour ouvrir le dossier de sortie
+- Effet glitch sur le titre
+
+---
+
 ## ⚙️ Compilation
 
 ### Prérequis
@@ -108,20 +123,43 @@ Sans ce fichier, le programme refuse de s'exécuter.
 - Références : `System.Windows.Forms`, `System.Management`, `System.Drawing`
 
 ### Build
-1. Ouvrir `LegalHarvest.sln`
-2. Restaurer les packages NuGet
-3. Compiler en **Release x64**
+1. Cloner le dépôt : `git clone https://github.com/theanonspider/LegalHarvest.git`
+2. Ouvrir `LegalHarvest.sln`
+3. Restaurer les packages NuGet
+4. Compiler en **Release x64**
 
 ---
 
 ## 🚀 Utilisation
 
+### Interface graphique (recommandé)
 ```bash
 # 1. Créer le token d'autorisation (obligatoire)
 echo MISSION_AUTHORIZED_2024 > C:\ProgramData\legal_harvest.token
 
 # 2. Lancer l'outil
 LegalHarvest.exe
+→ La fenêtre **Edition** s'ouvre. Sélectionnez les modules, cliquez sur EXECUTE.
 
-# 3. Récupérer le dossier de sortie (indiqué dans la console)
-# 4. Détruire les traces après le rapport
+---
+
+## 📄 Sortie
+
+Un dossier `%TEMP%\LegalHarvest_<date>` contenant :
+- `harvest.json` : toutes les données collectées au format JSON
+- Des captures d'écran (PNG)
+
+Accessible via le bouton **📂 OPEN LOOT** dans l'interface.
+
+---
+
+## ⚖️ Licence
+
+Ce projet est fourni à des fins **exclusivement éducatives et défensives**.
+Toute utilisation non autorisée est interdite.
+
+---
+
+## 👤 Auteur
+
+Projet maintenu par **@theanonspider** — Pour la cybersécurité éthique. 🐺
