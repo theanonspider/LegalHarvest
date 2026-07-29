@@ -29,31 +29,28 @@ Sans ce fichier, le programme refuse de s'exécuter.
 
 ---
 
-## 🧩 Modules de collecte (27 modules)
+## 🧩 Modules de collecte (39 modules)
 
 ### 🔐 Navigateurs
-- Mots de passe Chrome, Edge, Brave, Opera, Vivaldi, Yandex, Chromium
+- Mots de passe Chrome, Edge, Brave, Opera, Opera GX, Vivaldi, Yandex, Chromium
 - Cookies de tous les navigateurs Chromium
 - Mots de passe et cookies Firefox
-- Historique de navigation
+- Historique de navigation (Chrome + Firefox)
 - Cartes bancaires enregistrées
 - Données d'auto‑complétion
 
-### 🍪 Sessions web
-- Cookies ciblés : Facebook, Instagram, Twitter/X, LinkedIn, TikTok, Reddit, GitHub, Google, YouTube, Microsoft, Amazon, Discord, Telegram, WhatsApp, Netflix, Spotify
+### 🍪 Sessions web ciblées
+- Facebook, Instagram, Twitter/X, LinkedIn, TikTok, Reddit, GitHub
+- Google, YouTube, Microsoft, Live, Amazon, eBay, Dropbox
+- Discord, Telegram, WhatsApp, Snapchat, Pinterest
+- Twitch, Spotify, Netflix
 
-### 💬 Messageries
+### 💬 Messageries & Collaboration
 - Discord (normal, Canary, PTB)
 - Telegram Desktop
-- Signal
-- Zoom
-- Pidgin
-- Skype
-- Slack
-- WhatsApp Desktop
-- Microsoft Teams
-- Outlook
-- Thunderbird
+- Signal, Zoom, Pidgin
+- Skype, Slack, WhatsApp Desktop, Microsoft Teams
+- Outlook, Thunderbird
 
 ### 🎮 Gaming
 - Steam (sessions, ssfn)
@@ -65,21 +62,39 @@ Sans ce fichier, le programme refuse de s'exécuter.
 - Wallets : Exodus, Electrum, Atomic, Jaxx, Guarda, Binance, Coinbase
 - Extensions : MetaMask, Phantom, TronLink, Binance Chain Wallet, Coinbase Wallet, Keplr
 
-### 🔑 Système & Réseau
+### 🔑 Gestionnaires de mots de passe
+- KeePass (fichiers .kdbx)
+- Bitwarden
+- NordPass
+
+### 🖥️ Accès distant
+- AnyDesk
+- Connexions RDP sauvegardées
+- Sessions PuTTY
+- MobaXterm
+
+### 🗄️ Base de données
+- MySQL Workbench
+- pgAdmin
+
+### 🌐 Réseau & VPN
 - Clés Wi‑Fi
 - Gestionnaire d'identifiants Windows
-- Clés SSH
-- Configurations VPN (NordVPN, OpenVPN, ProtonVPN)
-- FileZilla, WinSCP
+- FileZilla (configurations + mots de passe déchiffrés)
+- WinSCP
+- VPN Windows
+- NordVPN, OpenVPN, ProtonVPN
 
-### 🖥️ Environnement
-- Informations système
+### 🖥️ Système & Environnement
+- Informations système (hostname, user, OS, IP)
+- Matériel (CPU, RAM, GPU, résolution)
 - Logiciels installés
 - Processus en cours
 - Presse‑papiers
-- Fichiers sensibles (.docx, .pdf, .kdbx, .rdp…)
-- Fichiers récents
-- Capture d'écran
+- Clés SSH
+- Fichiers sensibles (.docx, .pdf, .kdbx, .rdp, .xlsx, .csv, etc.)
+- Fichiers récemment ouverts
+- Capture d'écran de tous les moniteurs
 
 ---
 
