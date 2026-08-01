@@ -40,29 +40,44 @@ Il collecte tout ce qu'un attaquant pourrait voler : mots de passe, cookies, ses
 
 ```bash
 echo "LEGALHARVEST_AUTHORIZED" > legalharvest.token
+```
 
-⚙️ Installation
+---
 
-Prérequis : Windows 10/11, .NET Framework 4.8, Visual Studio 2022.
-bash
+## ⚙️ Installation
 
+**Prérequis :** Windows 10/11, .NET Framework 4.8, Visual Studio 2022.
+
+```bash
 git clone https://github.com/theanonspider/LegalHarvest-V2.git
 cd LegalHarvest-V2
 # Ouvrir dans Visual Studio → Build
 echo "LEGALHARVEST_AUTHORIZED" > legalharvest.token
+```
 
-🚀 Exemples d’utilisation
-bash
+---
 
+## 🚀 Exemples d’utilisation
+
+```bash
 LegalHarvest.exe
 # Interface GUI → sélectionner les modules → EXECUTE
+```
 
-📄 Sortie
+---
 
-Rapport JSON dans %TEMP%\LegalHarvest_<timestamp>\harvest.json.
-⚖️ Licence
+## 📄 Sortie
+
+Rapport JSON dans `%TEMP%\LegalHarvest_<timestamp>\harvest.json`.
+
+---
+
+## ⚖️ Licence
 
 Usage éducatif et défensif uniquement.
-👤 Auteur
 
-@theanonspider — Cybersécurité éthique. 🐺
+---
+
+## 👤 Auteur
+
+**@theanonspider** — Cybersécurité éthique. 🐺
